@@ -1,0 +1,147 @@
+@import 'fonts.css';
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    background-image: url(../image/dream_within_a_dream_2560.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cb-main-content {
+    margin: 30vh auto;
+    width: 35vw;
+    border-radius: 70px;
+    background-color: black;
+    height: 250px;
+    background-image: url(../image/blurBack2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 5px 0px rgba(53, 50, 50, 0.48);
+    transition: 0.5s;
+}
+.cb-bankname-header {
+    position: fixed;
+    width: 30%;
+    left: 0;
+    top: 5%;
+    border-color: white;
+    border-top: 40px solid white;
+    border-right: 40px solid transparent;
+    box-shadow: -20px 2px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.cb-logo {
+    float: right;
+    position: relative;
+    margin: -65px 200px;
+}
+.cb-header-text1 {
+    float: right;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: -43px 36px;
+    color: #ec2029;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.cb-header-text2 {
+    float: right;
+    font-size: 10px;
+    font-family: raleway;
+    margin: -12px 35px;
+    color: #ec2029;
+    letter-spacing: 1.35px;
+}
+.cb-content-box {
+    text-align: center;
+}
+.cb-content-box > .cb-dashboard {
+    float: left;
+    width: 17vw;
+    height: auto;
+    /*    background-color: red;*/
+    /* margin: 0vh 0; */
+    padding: 110px 0px;
+    font-size: 2vw;
+    font-family: raleway;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.cb-content-box > .cb-divider {
+    height: 89%;
+    width: 1vw;
+    /*    background-color: rgba(255, 255, 255, 0.46);*/
+    float: left;
+    margin: 15px 0;
+}
+.cb-content-box > .cb-divider > span {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.33);
+    width: 1px;
+    height: 33%;
+}
+.cb-content-box > .cb-minibank {
+    float: left;
+    width: 17vw;
+    height: auto;
+    /*    background-color: red;*/
+    /* margin: 0vh 0; */
+    padding: 110px 0px;
+    font-size: 2vw;
+    font-family: raleway;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cb-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 20px;
+    font-family: raleway;
+    font-size: 0.9vw;
+    color: white;
+    letter-spacing: 3px;
+    margin: 0 7vw;
+}
+
+.dash > span{
+    color:white;
+    transition: 0.5s;
+} 
+.dash > span > span {
+    color:black;
+    transition: 0.5s;
+}
+.mini > span{
+    color:#ED1C24;
+    transition: 0.5s;
+} 
+.mini > span > span {
+    color:#F36F21;
+    transition: 0.5s;
+}
+
+.dash-r > span{
+    color:black;
+    transition: 0.5s;
+} 
+.dash-r > span > span {
+    color:white;
+    transition: 0.5s;
+}
+.mini-r > span{
+    color:#F36F21;
+    transition: 0.5s;
+} 
+.mini-r > span > span {
+    color:#ED1C24;
+    transition: 0.5s;
+}
